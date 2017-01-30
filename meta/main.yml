@@ -17,4 +17,6 @@ galaxy_info:
   - cloud
   - security
   - system
-dependencies: []
+dependencies:
+  - src: git+https://github.com/openstack/openstack-ansible-plugins
+    version: master
