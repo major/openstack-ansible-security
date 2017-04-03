@@ -347,7 +347,7 @@
     - high
     - V-72005
 
-- name: RHEL-07-020620 - All local interactive users must have a home directory assigned in the /etc/passwd file.
+- name: V-72011 - All local interactive users must have a home directory assigned in the /etc/passwd file.
   debug:
     msg: |
       The following users do not have a home directory assigned:
@@ -358,7 +358,7 @@
   tags:
     - auth
     - medium
-    - RHEL-07-020620
+    - V-72011
 
 - name: Check each user to see if its home directory exists on the filesystem
   stat:
