@@ -210,7 +210,7 @@
     - high
     - V-71937
 
-- name: RHEL-07-010280 - The operating system must disable account identifiers if the password expires.
+- name: V-71941 - The operating system must disable account identifiers if the password expires.
   lineinfile:
     dest: /etc/default/useradd
     regexp: '^[#\s]*INACTIVE'
@@ -220,7 +220,7 @@
   tags:
     - auth
     - medium
-    - RHEL-07-010280
+    - V-71941
 
 - name: RHEL-07-010371 - If three unsuccessful logon attempts within 15 minutes occur the associated account must be locked.
   blockinfile:
