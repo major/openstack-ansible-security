@@ -45,7 +45,7 @@
   tags:
     - always
 
-- name: RHEL-07-020220 - The x86 Ctrl-Alt-Delete key sequence must be disabled
+- name: V-71993 - The x86 Ctrl-Alt-Delete key sequence must be disabled
   command: systemctl mask ctrl-alt-del.target
   when:
     - security_rhel7_disable_ctrl_alt_delete | bool
@@ -55,7 +55,7 @@
   tags:
     - high
     - misc
-    - RHEL-07-020220
+    - V-71993
 
 - name: Check for /home on mounted filesystem
   debug:
