@@ -131,10 +131,10 @@
   tags:
     - auth
     - medium
-    - RHEL-07-010210
+    - V-71927
     - skip_ansible_lint
 
-- name: RHEL-07-010210 - Passwords must be restricted to a 24 hours/1 day minimum lifetime.
+- name: V-71927 - Passwords must be restricted to a 24 hours/1 day minimum lifetime.
   debug:
     msg: |
       Accounts were found with a minimum password lifetime limit under 24 hours:
@@ -144,7 +144,7 @@
   tags:
     - auth
     - medium
-    - RHEL-07-010210
+    - V-71927
 
 - name: RHEL-07-010240 - Passwords must be prohibited from reuse for a minimum of five generations.
   lineinfile:
