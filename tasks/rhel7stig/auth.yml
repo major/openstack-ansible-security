@@ -51,6 +51,18 @@
     - V-71917
     - V-71935
 
+- name: Use pwquality when passwords are changed or created
+  lineinfile:
+    dest: /etc/pam.d/passwd
+    line: "password required pam_pwquality.so retry=3"
+    state: present
+  when:
+    - security_enable_pwquality_password_set | bool
+  tags:
+    - auth
+    - medium
+    - V-73159
+
 - name: Check for SHA512 password storage in PAM
   command: "grep pam_unix.so {{ pam_password_file }}"
   register: password_sha512_check
