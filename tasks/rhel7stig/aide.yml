@@ -29,7 +29,7 @@
   tags:
     - medium
     - aide
-    - RHEL-07-020130
+    - V-71973
 
 - name: Check to see if AIDE database is already in place
   stat:
@@ -50,7 +50,7 @@
   tags:
     - medium
     - aide
-    - RHEL-07-020130
+    - V-71973
 
 # NOTE(mhayden): This is only needed for CentOS 7 and RHEL 7 since Ubuntu
 # copies the new AIDE database into place automatically with its AIDE wrapper
@@ -64,7 +64,7 @@
   tags:
     - medium
     - aide
-    - RHEL-07-020130
+    - V-71973
 
 # NOTE(mhayden): This is only needed for CentOS 7 and RHEL 7 since the AIDE
 # package doesn't come with a cron job file. Ubuntu packages a cron job for

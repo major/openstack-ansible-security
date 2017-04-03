@@ -384,7 +384,7 @@ security_unattended_upgrades_notifications: false
 
 ## AIDE (aide)
 # Initialize the AIDE database immediately (may take time).
-security_rhel7_initialize_aide: no                           # RHEL-07-020130
+security_rhel7_initialize_aide: no                           # V-71973
 
 ## Audit daemon (auditd)
 # Send audit records to a different system using audisp.
