@@ -559,7 +559,7 @@ security_grub_password_hash: grub.pbkdf2.sha512.10000.7B21785BEAFEE3AC71459D8210
 # Set session timeout.
 security_rhel7_session_timeout: 600                          # V-72223
 # Enable chrony for NTP time synchronization.
-security_rhel7_enable_chrony: yes                            # RHEL-07-040210
+security_rhel7_enable_chrony: yes                            # V-72269
 # Restrict mail relaying.
 security_rhel7_restrict_mail_relaying: yes                   # RHEL-07-040480
 
