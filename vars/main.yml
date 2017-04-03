@@ -88,7 +88,7 @@ audited_commands:
     stig_id: V-72099
     arch_specific: yes
   - command: fchownat
-    stig_id: RHEL-07-030383
+    stig_id: V-72103
     arch_specific: yes
   - command: fremovexattr
     stig_id: RHEL-07-030404
