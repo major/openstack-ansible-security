@@ -626,10 +626,10 @@ security_sshd_disable_kerberos_auth: yes                     # RHEL-07-040670
 ## Kernel settings (kernel)
 # Disallow forwarding IPv4/IPv6 source routed packets on all interfaces
 # immediately and by default on new interfaces.
-security_disallow_source_routed_packet_forward_ipv4: yes     # RHEL-07-040350 / RHEL-07-040351
+security_disallow_source_routed_packet_forward_ipv4: yes     # V-72283 / V-72285
 security_disallow_source_routed_packet_forward_ipv6: yes     # RHEL-07-040860
 # Disallow responses to IPv4 ICMP echoes sent to broadcast address.
-security_disallow_echoes_broadcast_address: yes              # RHEL-07-040380
+security_disallow_echoes_broadcast_address: yes              # V-72287
 # Disallow IPV4 ICMP redirects on all interfaces immediately and by default on
 # new interfaces.
 security_disallow_icmp_redirects: yes                        # RHEL-07-040410 / RHEL-07-040420 / RHEL-07-040421
