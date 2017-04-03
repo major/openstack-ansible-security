@@ -1,5 +1,5 @@
 ---
-id: RHEL-07-040500
+id: V-72301
 status: implemented
 tag: packages
 ---
@@ -11,6 +11,7 @@ installed. The package name differs between Linux distributions:
 * Ubuntu: ``tftpd``
 
 Deployers can opt-out of this change by setting the following Ansible variable:
+
 
 .. code-block:: yaml
 

@@ -31,7 +31,7 @@
     - V-72077
     - V-72213
     - V-72233
-    - RHEL-07-040500
+    - V-72301
     - RHEL-07-040560
 
 - name: V-71987 - Clean requirements/dependencies when removing packages (rpm)

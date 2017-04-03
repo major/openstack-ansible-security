@@ -568,7 +568,7 @@ security_rhel7_restrict_mail_relaying: yes                   # V-72297
 # to 'no' to skip their removal.
 security_rhel7_remove_rsh_server: yes                        # V-71967
 security_rhel7_remove_telnet_server: yes                     # V-72077
-security_rhel7_remove_tftp_server: yes                       # RHEL-07-040500
+security_rhel7_remove_tftp_server: yes                       # V-72301
 security_rhel7_remove_xorg: yes                              # RHEL-07-040560
 security_rhel7_remove_ypserv: yes                            # V-71969
 # Automatically remove dependencies when removing packages.
