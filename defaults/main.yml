@@ -403,7 +403,7 @@ security_rhel7_auditd_space_left_action: email               # V-72091
 # Send auditd email alerts to this user.
 security_rhel7_auditd_action_mail_acct: root                 # V-72093
 # Add audit rules for commands/syscalls.
-security_rhel7_audit_chsh: yes                               # RHEL-07-030525
+security_rhel7_audit_chsh: yes                               # V-72167
 security_rhel7_audit_chage: yes                              # V-72155
 security_rhel7_audit_chcon: yes                              # V-72139
 security_rhel7_audit_chmod: no                               # V-72105
@@ -424,7 +424,7 @@ security_rhel7_audit_lchown: no                              # V-72101
 security_rhel7_audit_lremovexattr: no                        # V-72121
 security_rhel7_audit_lsetxattr: no                           # V-72115
 security_rhel7_audit_mount: yes                              # RHEL-07-030530
-security_rhel7_audit_newgrp: yes                             # RHEL-07-030524
+security_rhel7_audit_newgrp: yes                             # V-72165
 security_rhel7_audit_open: yes                               # V-72125
 security_rhel7_audit_openat: yes                             # V-72127
 security_rhel7_audit_open_by_handle_at: yes                  # V-72129
@@ -442,9 +442,9 @@ security_rhel7_audit_semanage: yes                           # V-72135
 security_rhel7_audit_setsebool: yes                          # V-72137
 security_rhel7_audit_setxattr: no                            # V-72111
 security_rhel7_audit_ssh_keysign: yes                        # RHEL-07-030550
-security_rhel7_audit_su: yes                                 # RHEL-07-030521
-security_rhel7_audit_sudo: yes                               # RHEL-07-030522
-security_rhel7_audit_sudoedit: yes                           # RHEL-07-030526
+security_rhel7_audit_su: yes                                 # V-72159
+security_rhel7_audit_sudo: yes                               # V-72161
+security_rhel7_audit_sudoedit: yes                           # V-72169
 security_rhel7_audit_truncate: yes                           # V-72131
 security_rhel7_audit_umount: yes                             # RHEL-07-030531
 security_rhel7_audit_unix_chkpwd: yes                        # V-72151
@@ -453,7 +453,7 @@ security_rhel7_audit_unlinkat: yes                           # RHEL-07-030754
 security_rhel7_audit_userhelper: yes                         # V-72157
 # Add audit rules for other events.
 security_rhel7_audit_account_access: yes                     # V-72143
-security_rhel7_audit_sudo_config_changes: yes                # RHEL-07-030523
+security_rhel7_audit_sudo_config_changes: yes                # V-72163
 security_rhel7_audit_insmod: yes                             # RHEL-07-030672
 security_rhel7_audit_rmmod: yes                              # RHEL-07-030673
 security_rhel7_audit_modprobe: yes                           # RHEL-07-030674

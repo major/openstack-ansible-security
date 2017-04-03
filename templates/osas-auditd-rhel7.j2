@@ -65,10 +65,10 @@
 {% endif %}
 
 {% if security_rhel7_audit_sudo_config_changes | bool %}
-# RHEL-07-030523 - The operating system must generate audit records containing
+# V-72163 - The operating system must generate audit records containing
 # the full-text recording of modifications to sudo configuration files.
--w /etc/sudoers -p wa -k RHEL-07-030523
--w /etc/sudoers.d/ -p wa -k RHEL-07-030523
+-w /etc/sudoers -p wa -k V-72163
+-w /etc/sudoers.d/ -p wa -k V-72163
 {% endif %}
 
 {% if security_rhel7_audit_insmod | bool %}
