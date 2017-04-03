@@ -32,7 +32,7 @@
     - high
     - V-71953
 
-- name: RHEL-07-010431 - The operating system must not allow guest logon to the system.
+- name: V-71955 - The operating system must not allow guest logon to the system.
   lineinfile:
     dest: /etc/gdm/custom.conf
     line: "^TimedLoginEnable=true"
@@ -43,7 +43,7 @@
   tags:
     - graphical
     - high
-    - RHEL-07-010431
+    - V-71955
 
 - name: Check for dconf profiles
   stat:
