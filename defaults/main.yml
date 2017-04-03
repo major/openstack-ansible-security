@@ -481,7 +481,7 @@ security_password_encrypt_method: SHA512                     # V-71921
 # Ensure user/group admin utilities only store encrypted passwords.
 security_libuser_crypt_style_sha512: yes                     # V-71923
 # Set a minimum/maximum lifetime limit for user passwords.
-#security_password_min_lifetime_days: 1                      # RHEL-07-010200
+#security_password_min_lifetime_days: 1                      # V-71925
 #security_password_max_lifetime_days: 60                     # RHEL-07-010220
 # Set a timeout (in seconds) to cache NSS authenticators with sssd.
 security_nss_cached_authenticator_timeout: 86400             # RHEL-07-010400
