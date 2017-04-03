@@ -175,7 +175,7 @@
     - medium
     - V-71931
 
-- name: RHEL-07-010260 - The system must not have accounts configured with blank or null passwords
+- name: V-71937 - The system must not have accounts configured with blank or null passwords
   lineinfile:
     dest: "{{ pam_auth_file }}"
     state: present
@@ -189,9 +189,9 @@
   tags:
     - auth
     - high
-    - RHEL-07-010260
+    - V-71937
 
-- name: RHEL-07-010260 - The system must not have accounts configured with blank or null passwords
+- name: V-71937 - The system must not have accounts configured with blank or null passwords
   lineinfile:
     dest: "{{ pam_auth_file }}"
     state: present
@@ -208,7 +208,7 @@
   tags:
     - auth
     - high
-    - RHEL-07-010260
+    - V-71937
 
 - name: RHEL-07-010280 - The operating system must disable account identifiers if the password expires.
   lineinfile:
