@@ -302,7 +302,7 @@ shadow_utils_rhel7:
     ansible_os_family: RedHat
   - parameter: UMASK
     value: "{{ security_shadow_utils_umask | default('') }}"
-    stig_id: RHEL-07-020230
+    stig_id: V-71995
     ansible_os_family: all
   - parameter: CREATE_HOME
     value: "{{ security_shadow_utils_create_home | default('') }}"

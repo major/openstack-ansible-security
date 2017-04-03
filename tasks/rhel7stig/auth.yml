@@ -88,7 +88,7 @@
     - V-71925
     - V-71929
     - V-71951
-    - RHEL-07-020230
+    - V-71995
     - RHEL-07-020630
 
 # NOTE(mhayden): pam_faildelay expects the `delay` parameter to be in
