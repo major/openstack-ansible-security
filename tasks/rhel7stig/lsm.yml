@@ -71,9 +71,9 @@
   tags:
     - lsm
     - medium
-    - RHEL-07-020940
+    - V-72039
 
-- name: RHEL-07-020940 - All system device files must be correctly labeled to prevent unauthorized modification.
+- name: V-72039 - All system device files must be correctly labeled to prevent unauthorized modification.
   debug:
     msg: |
       Devices were found without SELinux labels:
@@ -87,4 +87,4 @@
   tags:
     - lsm
     - medium
-    - RHEL-07-020940
+    - V-72039
