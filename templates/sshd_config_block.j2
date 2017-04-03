@@ -3,7 +3,7 @@
 PermitEmptyPasswords no
 {% endif %}
 {% if security_sshd_disallow_environment_override | bool %}
-# RHEL-07-010441
+# V-71957
 PermitUserEnvironment no
 {% endif %}
 {% if security_sshd_disallow_host_based_auth | bool %}
