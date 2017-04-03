@@ -590,7 +590,7 @@ security_sshd_disallow_empty_password: yes                   # V-71939 / RHEL-07
 # Disallow users from overriding the ssh environment variables.
 security_sshd_disallow_environment_override: yes             # V-71957
 # Disallow host based authentication.
-security_sshd_disallow_host_based_auth: yes                  # RHEL-07-010442
+security_sshd_disallow_host_based_auth: yes                  # V-71959
 # Set a list of allowed ssh ciphers.
 security_sshd_cipher_list: 'aes128-ctr,aes192-ctr,aes256-ctr' # RHEL-07-040110
 # Specify a text file to be displayed as the banner/MOTD for all sessions.
