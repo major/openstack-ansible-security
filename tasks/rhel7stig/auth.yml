@@ -222,7 +222,7 @@
     - medium
     - V-71941
 
-- name: RHEL-07-010371 - If three unsuccessful logon attempts within 15 minutes occur the associated account must be locked.
+- name: V-71945 - If three unsuccessful logon attempts within 15 minutes occur the associated account must be locked.
   blockinfile:
     dest: pam_password_file
     state: present
@@ -235,8 +235,8 @@
   tags:
     - auth
     - medium
-    - RHEL-07-010371
-    - RHEL-07-010372
+    - V-71945
+    - V-71943
     - RHEL-07-010373
 
 - name: Check for 'nopasswd' in sudoers files

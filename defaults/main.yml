@@ -498,11 +498,11 @@ security_shadow_utils_create_home: yes                       # RHEL-07-020630
 # Disable user accounts if the password expires.
 security_disable_account_if_password_expires: no             # V-71941
 # Lock user accounts with excessive login failures. See documentation.
-security_pam_faillock_enable: no                             # RHEL-07-010371 / RHEL-07-010372 / RHEL-07-010373
+security_pam_faillock_enable: no                             # V-71945 / V-71943 / RHEL-07-010373
 security_pam_faillock_interval: 900
 security_pam_faillock_attempts: 3
 security_pam_faillock_deny_root: yes                         # RHEL-07-010373
-security_pam_faillock_unlock_time: 604800                    # RHEL-07-010372
+security_pam_faillock_unlock_time: 604800                    # V-71943
 # Limit the number of concurrent connections per account.
 #security_rhel7_concurrent_session_limit: 10                 # RHEL-07-040010
 # Remove .shosts and shosts.equiv files.
