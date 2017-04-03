@@ -1,0 +1,6 @@
+---
+security:
+  - |
+    The ``cn_map`` permissions and ownership adjustments included as part of
+    RHEL-07-040070 and RHEL-07-040080 has been removed. This STIG
+    configuration was removed in the most recent release of the RHEL 7 STIG.
