@@ -126,7 +126,7 @@
   tags:
     - always
 
-- name: RHEL-07-021050 - All world-writable directories must be group-owned by root, sys, bin, or an application group.
+- name: V-72047 - All world-writable directories must be group-owned by root, sys, bin, or an application group.
   debug:
     msg: |
       The group owners on the following world-writable directories should be examined:
@@ -136,7 +136,7 @@
   tags:
     - medium
     - file_perms
-    - RHEL-07-021050
+    - V-72047
 
 - name: Check if /etc/cron.allow exists
   stat:
