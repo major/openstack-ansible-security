@@ -324,7 +324,7 @@
   tags:
     - always
 
-- name: RHEL-07-040470 - Network interfaces must not be in promiscuous mode.
+- name: V-72295 - Network interfaces must not be in promiscuous mode.
   debug:
     msg: >
       One or more network interfaces were found to be in promiscuous mode.
@@ -334,7 +334,7 @@
   tags:
     - medium
     - misc
-    - RHEL-07-040470
+    - V-72295
 
 - name: Check for postfix configuration file
   stat:
@@ -343,7 +343,7 @@
   tags:
     - always
 
-- name: RHEL-07-040480 - Prevent unrestricted mail relaying
+- name: V-72297 - Prevent unrestricted mail relaying
   lineinfile:
     dest: /etc/postfix/main.cf
     regexp: '^smtpd_client_restrictions'
@@ -354,7 +354,7 @@
   tags:
     - medium
     - misc
-    - RHEL-07-040480
+    - V-72297
 
 - name: Check for TFTP server configuration file
   stat:
