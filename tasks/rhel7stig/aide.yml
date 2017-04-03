@@ -81,7 +81,7 @@
   tags:
     - medium
     - aide
-    - RHEL-07-020140
+    - V-71975
 
 # NOTE(mhayden): CentOS/RHEL already provide a very strict AIDE configuration
 # that meets the requirements of RHEL-07-021600 and RHEL-07-021610. That config
