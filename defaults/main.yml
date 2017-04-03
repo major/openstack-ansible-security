@@ -468,7 +468,7 @@ security_disallow_blank_password_login: yes                  # RHEL-07-010260
 # the password quality rules. Each rule can be disabled with a value of 'no'.
 security_pwquality_apply_rules: no
 security_pwquality_require_uppercase: yes                    # V-71903
-security_pwquality_require_lowercase: yes                    # RHEL-07-010100
+security_pwquality_require_lowercase: yes                    # V-71905
 security_pwquality_require_numeric: yes                      # RHEL-07-010110
 security_pwquality_require_special: yes                      # RHEL-07-010120
 security_pwquality_require_characters_changed: yes           # RHEL-07-010130
