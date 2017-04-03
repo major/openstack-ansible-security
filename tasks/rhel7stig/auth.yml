@@ -333,7 +333,7 @@
   tags:
     - auth
     - low
-    - RHEL-07-020300
+    - V-72003
 
 - name: RHEL-07-020310 - The root account must be the only account having unrestricted access to the system
   fail:
