@@ -160,7 +160,7 @@
     - medium
     - RHEL-07-010240
 
-- name: RHEL-07-010230 - Existing passwords must be restricted to a 60-day maximum lifetime.
+- name: V-71931 - Existing passwords must be restricted to a 60-day maximum lifetime.
   debug:
     msg: |
       The following user accounts have an existing password with a lifetime of
@@ -173,7 +173,7 @@
   tags:
     - auth
     - medium
-    - RHEL-07-010230
+    - V-71931
 
 - name: RHEL-07-010260 - The system must not have accounts configured with blank or null passwords
   lineinfile:
