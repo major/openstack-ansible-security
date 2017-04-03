@@ -80,8 +80,7 @@
   tags:
     - graphical
     - medium
-    - RHEL-07-010030
-    - RHEL-07-010031
+    - V-71859
     - RHEL-07-010060
     - RHEL-07-010070
     - RHEL-07-010071
@@ -133,8 +132,7 @@
   tags:
     - graphical
     - medium
-    - RHEL-07-010030
-    - RHEL-07-010031
+    - V-71859
 
 - name: Create a GDM keyfile for machine-wide settings
   template:
@@ -150,5 +148,4 @@
   tags:
     - graphical
     - medium
-    - RHEL-07-010030
-    - RHEL-07-010031
+    - V-71859

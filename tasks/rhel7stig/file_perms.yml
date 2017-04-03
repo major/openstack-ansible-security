@@ -13,11 +13,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-- name: RHEL-07-010010 - Get packages with incorrect file permissions or ownership
+- name: V-71849 - Get packages with incorrect file permissions or ownership
   shell: "grep '^.M' {{ temp_dir }}/rpmverify.txt | awk '{ print $NF }'"
   args:
     warn: no
-  register: rhel_07_010010_packages
+  register: rpmverify_package_list
   changed_when: False
   when:
     - not check_mode | bool
@@ -26,27 +26,27 @@
   tags:
     - file_perms
     - high
-    - RHEL-07-010010
+    - V-71849
 
-- name: RHEL-07-010010 - Reset file permissions/ownership to vendor values
+- name: V-71849 - Reset file permissions/ownership to vendor values
   shell: "rpm {{ item[0] }} `rpm -qf {{ item[1] }}`"
   args:
     warn: no
   changed_when: false
   with_nested:
     - ['--setperms', '--setugids']
-    - "{{ rhel_07_010010_packages.stdout_lines | default([]) }}"
+    - "{{ rpmverify_package_list.stdout_lines | default([]) }}"
   when:
     - not check_mode | bool
     - ansible_os_family | lower == 'redhat'
-    - rhel_07_010010_packages is defined
-    - rhel_07_010010_packages.stdout_lines | length > 0
+    - rpmverify_package_list is defined
+    - rpmverify_package_list.stdout_lines | length > 0
   async: 300
   poll: 0
   tags:
     - file_perms
     - high
-    - RHEL-07-010010
+    - V-71849
     # don't trigger ANSIBLE0013
     - skip_ansible_lint
 
