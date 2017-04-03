@@ -1,5 +1,5 @@
 ---
-id: RHEL-07-040191
+id: V-72241
 status: implemented
 tag: sshd
 ---
@@ -26,5 +26,5 @@ the following Ansible variable.
     ``ClientAliveCountMax`` specifies how many of these messages are sent
     without receiving a response.
 
-    Deployers should refer to :ref:`stig-RHEL-07-040190` to customize the
+    Deployers should refer to :ref:`stig-V-72237` to customize the
     ``ClientAliveInterval`` setting.

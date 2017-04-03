@@ -596,8 +596,8 @@ security_sshd_cipher_list: 'aes128-ctr,aes192-ctr,aes256-ctr' # V-72221
 # Specify a text file to be displayed as the banner/MOTD for all sessions.
 security_sshd_banner_file: /etc/motd                         # V-71861 / V-72225
 # Set the interval for max session length and the number of intervals to allow.
-security_sshd_client_alive_interval: 600                     # RHEL-07-040190
-security_sshd_client_alive_count_max: 0                      # RHEL-07-040191
+security_sshd_client_alive_interval: 600                     # V-72237
+security_sshd_client_alive_count_max: 0                      # V-72241
 # Print the last login for a user when they log in over ssh.
 security_sshd_print_last_log: yes                            # RHEL-07-040301
 # Permit direct root logins

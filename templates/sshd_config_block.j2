@@ -14,9 +14,9 @@ HostbasedAuthentication no
 Ciphers {{ security_sshd_cipher_list }}
 # V-72225
 Banner {{ security_sshd_banner_file }}
-# RHEL-07-040190
+# V-72237
 ClientAliveInterval {{ security_sshd_client_alive_interval }}
-# RHEL-07-040191
+# V-72241
 ClientAliveCountMax {{ security_sshd_client_alive_count_max }}
 {% if security_sshd_print_last_log | bool %}
 # RHEL-07-040301
