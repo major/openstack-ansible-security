@@ -59,7 +59,7 @@
   tags:
     - always
 
-- name: RHEL-07-010170 - The PAM system service must be configured to store only encrypted representations of passwords.
+- name: V-71919 - The PAM system service must be configured to store only encrypted representations of passwords.
   debug:
     msg: >
       PAM is not using SHA512 for password storage. This is a security issue.
@@ -69,7 +69,7 @@
   tags:
     - auth
     - medium
-    - RHEL-07-010170
+    - V-71919
 
 - name: Configure shadow-utils configuration
   lineinfile:
