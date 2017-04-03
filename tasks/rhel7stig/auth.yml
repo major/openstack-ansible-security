@@ -412,17 +412,17 @@
   tags:
     - always
 
-- name: RHEL-07-040300 - Display date/time of last logon after logon
+- name: V-72275 - Display date/time of last logon after logon
   debug:
     msg: >
       The 'pam_lastlog' directive is missing in {{ pam_postlogin_file }}.
-      This is required by RHEL-07-040300.
+      This is required by V-72275.
   when:
     - pam_lastlog_check.rc != 0
   tags:
     - low
     - auth
-    - RHEL-07-040300
+    - V-72275
 
 - name: Check for .shosts or shosts.equiv files
   find:

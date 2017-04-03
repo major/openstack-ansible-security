@@ -276,7 +276,7 @@
   tags:
     - medium
     - misc
-    - RHEL-07-040290
+    - V-72273
 
 - name: Limit new TCP connections to 25/minute and allow bursting to 100
   command: "firewall-cmd --direct --add-rule ipv4 filter IN_public_allow 0 -m tcp -p tcp -m limit --limit {{ security_enable_firewalld_rate_limit_per_minute }}/minute --limit-burst {{ security_enable_firewalld_rate_limit_burst }} -j ACCEPT"
@@ -288,7 +288,7 @@
   tags:
     - medium
     - misc
-    - RHEL-07-040250
+    - V-72271
 
 # Linting checks need to be skipped because this command doesn't create any
 # files.

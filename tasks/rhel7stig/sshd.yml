@@ -61,7 +61,7 @@
     - V-72225
     - V-72237
     - V-72241
-    - RHEL-07-040301
+    - V-72245
     - RHEL-07-040310
     - RHEL-07-040332
     - RHEL-07-040334
@@ -83,7 +83,7 @@
   tags:
     - medium
     - sshd
-    - RHEL-07-040261
+    - V-72235
 
 - name: Public host key files must have mode 0644 or less
   file:

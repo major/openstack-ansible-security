@@ -547,9 +547,9 @@ security_enable_virus_scanner: no                            # V-72213
 # Disable ctrl-alt-delete key sequence on the console.
 security_rhel7_disable_ctrl_alt_delete: yes                  # V-71993
 # Install and enable firewalld for iptables management.
-security_enable_firewalld: no                                # RHEL-07-040290
+security_enable_firewalld: no                                # V-72273
 # Rate limit TCP connections to 25/min and burstable to 100.
-security_enable_firewalld_rate_limit: no                     # RHEL-07-040250
+security_enable_firewalld_rate_limit: no                     # V-72271
 security_enable_firewalld_rate_limit_per_minute: 25
 security_enable_firewalld_rate_limit_burst: 100
 # Require authentication in GRUB to boot into single-user or maintenance modes.
@@ -584,7 +584,7 @@ security_enable_gpgcheck_repo: no                            # V-71981
 
 ## ssh server (sshd)
 # Ensure sshd is running and enabled at boot time.
-security_enable_sshd: yes                                    # RHEL-07-040261
+security_enable_sshd: yes                                    # V-72235
 # Disallow logins from users with empty/null passwords.
 security_sshd_disallow_empty_password: yes                   # V-71939 / RHEL-07-010440
 # Disallow users from overriding the ssh environment variables.
@@ -599,7 +599,7 @@ security_sshd_banner_file: /etc/motd                         # V-71861 / V-72225
 security_sshd_client_alive_interval: 600                     # V-72237
 security_sshd_client_alive_count_max: 0                      # V-72241
 # Print the last login for a user when they log in over ssh.
-security_sshd_print_last_log: yes                            # RHEL-07-040301
+security_sshd_print_last_log: yes                            # V-72245
 # Permit direct root logins
 security_sshd_permit_root_login: no                          # RHEL-07-040310
 # Disallow authentication using known hosts authentication.
