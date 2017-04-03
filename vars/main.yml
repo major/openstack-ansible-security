@@ -229,7 +229,7 @@ audited_commands:
 password_quality_rhel7:
   - parameter: ucredit
     value: -1
-    stig_id: RHEL-07-010090
+    stig_id: V-71903
     description: "Password must contain at least one upper-case character"
     enabled: "{{ security_pwquality_require_uppercase }}"
   - parameter: lcredit
