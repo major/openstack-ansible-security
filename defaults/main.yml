@@ -609,19 +609,19 @@ security_sshd_disallow_rhosts_auth: yes                      # V-72243
 # Enable X11 forwarding.
 security_sshd_enable_x11_forwarding: yes                     # V-72303
 # Set the allowed ssh protocols.
-security_sshd_protocol: 2                                    # RHEL-07-040590
+security_sshd_protocol: 2                                    # V-72251
 # Set the list of allowed Message Authentication Codes (MACs) for ssh.
-security_sshd_allowed_macs: 'hmac-sha2-256,hmac-sha2-512'    # RHEL-07-040620
+security_sshd_allowed_macs: 'hmac-sha2-256,hmac-sha2-512'    # V-72253
 # Disallow Generic Security Service Application Program Interface (GSSAPI) auth.
-security_sshd_disallow_gssapi: yes                           # RHEL-07-040660
+security_sshd_disallow_gssapi: yes                           # V-72259
 # Disallow compression or delay after login.
-security_sshd_compression: 'delayed'                         # RHEL-07-040700
+security_sshd_compression: 'delayed'                         # V-72267
 # Require privilege separation at every opportunity.
-security_sshd_enable_privilege_separation: yes               # RHEL-07-040690
+security_sshd_enable_privilege_separation: yes               # V-72265
 # Require strict mode checking of home directory configuration files.
-security_sshd_enable_strict_modes: yes                       # RHEL-07-040680
+security_sshd_enable_strict_modes: yes                       # V-72263
 # Disallow Kerberos authentication.
-security_sshd_disable_kerberos_auth: yes                     # RHEL-07-040670
+security_sshd_disable_kerberos_auth: yes                     # V-72261
 
 ## Kernel settings (kernel)
 # Disallow forwarding IPv4/IPv6 source routed packets on all interfaces

@@ -395,14 +395,14 @@
   tags:
     - always
 
-- name: RHEL-07-040580 - Change SNMP community strings from default.
+- name: V-72313 - Change SNMP community strings from default.
   debug:
     msg: >
       Change the SNMP community strings from the defaults of 'public' and
-      'private' to meet the requirements of RHEL-07-040580.
+      'private' to meet the requirements of V-72313.
   when:
     - snmp_public_private_check.rc == 0
   tags:
     - high
     - misc
-    - RHEL-07-040580
+    - V-72313

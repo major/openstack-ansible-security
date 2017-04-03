@@ -67,12 +67,12 @@
     - V-72243
     - V-72243
     - V-72303
-    - RHEL-07-040590
-    - RHEL-07-040620
-    - RHEL-07-040690
-    - RHEL-07-040700
-    - RHEL-07-040670
-    - RHEL-07-040680
+    - V-72251
+    - V-72253
+    - V-72265
+    - V-72267
+    - V-72261
+    - V-72263
 
 - name: Ensure sshd is enabled at boot time
   service:
@@ -94,7 +94,7 @@
   tags:
     - medium
     - sshd
-    - RHEL-07-040640
+    - V-72255
 
 - name: Private host key files must have mode 0600 or less
   file:
@@ -105,4 +105,4 @@
   tags:
     - medium
     - sshd
-    - RHEL-07-040650
+    - V-72257
