@@ -49,7 +49,7 @@
     - V-71913
     - V-71915
     - V-71917
-    - RHEL-07-010250
+    - V-71935
 
 - name: Check for SHA512 password storage in PAM
   command: "grep pam_unix.so {{ pam_password_file }}"
