@@ -61,7 +61,7 @@
   tags:
     - always
 
-- name: RHEL-07-020360 - All files and directories must have a valid owner.
+- name: V-72007 - All files and directories must have a valid owner.
   debug:
     msg: |
       Files and directories were found that are owned by an invalid user:
@@ -73,7 +73,7 @@
   tags:
     - file_perms
     - medium
-    - RHEL-07-020360
+    - V-72007
 
 - name: Search for files/directories with an invalid group owner
   command: find / -xdev -nogroup -fstype local
