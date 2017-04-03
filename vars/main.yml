@@ -259,7 +259,7 @@ password_quality_rhel7:
     enabled: "{{ security_pwquality_require_character_classes_changed }}"
   - parameter: maxrepeat
     value: 4
-    stig_id: RHEL-07-010150
+    stig_id: V-71915
     description: "Password must have at most four characters repeated consecutively"
     enabled: "{{ security_pwquality_limit_repeated_characters }}"
   - parameter: maxclassrepeat
