@@ -64,7 +64,7 @@ audited_commands:
     stig_id: RHEL-07-030443
     arch_specific: no
   - command: chmod
-    stig_id: RHEL-07-030390
+    stig_id: V-72105
     arch_specific: yes
   - command: chown
     stig_id: V-72097
