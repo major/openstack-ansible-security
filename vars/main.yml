@@ -79,10 +79,10 @@ audited_commands:
     stig_id: RHEL-07-030671
     arch_specific: yes
   - command: fchmod
-    stig_id: RHEL-07-030391
+    stig_id: V-72107
     arch_specific: yes
   - command: fchmodat
-    stig_id: RHEL-07-030392
+    stig_id: V-72109
     arch_specific: yes
   - command: fchown
     stig_id: V-72099
@@ -175,7 +175,7 @@ audited_commands:
     stig_id: RHEL-07-030442
     arch_specific: no
   - command: setxattr
-    stig_id: RHEL-07-030400
+    stig_id: V-72111
     arch_specific: yes
   - command: ssh-keysign
     path: "{{ ssh_keysign_path }}"
