@@ -603,9 +603,9 @@ security_sshd_print_last_log: yes                            # V-72245
 # Permit direct root logins
 security_sshd_permit_root_login: no                          # V-72247
 # Disallow authentication using known hosts authentication.
-security_sshd_disallow_known_hosts_auth: yes                 # RHEL-07-040332 / RHEL-07-040333
+security_sshd_disallow_known_hosts_auth: yes                 # V-72249 / V-72239
 # Disallow rhosts authentication.
-security_sshd_disallow_rhosts_auth: yes                      # RHEL-07-040334
+security_sshd_disallow_rhosts_auth: yes                      # V-72243
 # Enable X11 forwarding.
 security_sshd_enable_x11_forwarding: yes                     # RHEL-07-040540
 # Set the allowed ssh protocols.
