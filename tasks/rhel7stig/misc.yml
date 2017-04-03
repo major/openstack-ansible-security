@@ -375,7 +375,7 @@
   tags:
     - always
 
-- name: RHEL-07-040520 - TFTP must be configured to operate in secure mode
+- name: V-72305 - TFTP must be configured to operate in secure mode
   debug:
     msg: TFTP must be configured to run in secure mode with the '-s' flag.
   when:
@@ -384,7 +384,7 @@
   tags:
     - medium
     - misc
-    - RHEL-07-040520
+    - V-72305
 
 - name: Check to see if snmpd config contains public/private
   shell: 'egrep "^[^#].*(public|private)" /etc/snmp/snmpd.conf'

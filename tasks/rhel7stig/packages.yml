@@ -32,7 +32,7 @@
     - V-72213
     - V-72233
     - V-72301
-    - RHEL-07-040560
+    - V-72307
 
 - name: V-71987 - Clean requirements/dependencies when removing packages (rpm)
   lineinfile:
