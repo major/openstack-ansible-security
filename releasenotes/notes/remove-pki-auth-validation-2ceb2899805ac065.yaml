@@ -1,6 +1,6 @@
 ---
 security:
   - |
-    The PKI-based authentication checks for RHEL-07-040030 and RHEL-07-040040
-    are no longer included in the RHEL 7 STIG. The tasks and documentation for
-    these outdated configurations are removed.
+    The PKI-based authentication checks for RHEL-07-040030, RHEL-07-040040,
+    and RHEL-07-040050 are no longer included in the RHEL 7 STIG. The tasks
+    and documentation for these outdated configurations are removed.
