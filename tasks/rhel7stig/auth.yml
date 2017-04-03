@@ -87,7 +87,7 @@
     - V-71921
     - V-71925
     - V-71929
-    - RHEL-07-010420
+    - V-71951
     - RHEL-07-020230
     - RHEL-07-020630
 
@@ -106,7 +106,7 @@
   tags:
     - auth
     - medium
-    - RHEL-07-010420
+    - V-71951
 
 - name: V-71923 - User and group account administration utilities must be configured to store only encrypted representations of passwords.
   ini_file:

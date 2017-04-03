@@ -484,7 +484,7 @@ security_libuser_crypt_style_sha512: yes                     # V-71923
 #security_password_min_lifetime_days: 1                      # V-71925
 #security_password_max_lifetime_days: 60                     # V-71929
 # Set a delay (in seconds) between failed login attempts.
-security_shadow_utils_fail_delay: 4                          # RHEL-07-010420
+security_shadow_utils_fail_delay: 4                          # V-71951
 # Set a umask for all authenticated users.
 # security_shadow_utils_umask: '077'                         # RHEL-07-020230
 # Create home directories for new users by default.
