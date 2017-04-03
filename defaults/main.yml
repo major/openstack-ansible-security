@@ -408,7 +408,7 @@ security_rhel7_audit_chage: yes                              # RHEL-07-030513
 security_rhel7_audit_chcon: yes                              # RHEL-07-030443
 security_rhel7_audit_chmod: no                               # V-72105
 security_rhel7_audit_chown: no                               # V-72097
-security_rhel7_audit_creat: yes                              # RHEL-07-030420
+security_rhel7_audit_creat: yes                              # V-72123
 security_rhel7_audit_crontab: yes                            # RHEL-07-030561
 security_rhel7_audit_delete_module: yes                      # RHEL-07-030671
 security_rhel7_audit_fchmod: no                              # V-72107
@@ -421,11 +421,11 @@ security_rhel7_audit_ftruncate: yes                          # RHEL-07-030425
 security_rhel7_audit_init_module: yes                        # RHEL-07-030670
 security_rhel7_audit_gpasswd: yes                            # RHEL-07-030512
 security_rhel7_audit_lchown: no                              # V-72101
-security_rhel7_audit_lremovexattr: no                        # RHEL-07-030405
+security_rhel7_audit_lremovexattr: no                        # V-72121
 security_rhel7_audit_lsetxattr: no                           # V-72115
 security_rhel7_audit_mount: yes                              # RHEL-07-030530
 security_rhel7_audit_newgrp: yes                             # RHEL-07-030524
-security_rhel7_audit_open: yes                               # RHEL-07-030421
+security_rhel7_audit_open: yes                               # V-72125
 security_rhel7_audit_openat: yes                             # RHEL-07-030422
 security_rhel7_audit_open_by_handle_at: yes                  # RHEL-07-030423
 security_rhel7_audit_pam_timestamp_check: yes                # RHEL-07-030630

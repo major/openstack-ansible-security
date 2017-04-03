@@ -70,7 +70,7 @@ audited_commands:
     stig_id: V-72097
     arch_specific: yes
   - command: creat
-    stig_id: RHEL-07-030420
+    stig_id: V-72123
     arch_specific: yes
   - command: crontab
     stig_id: RHEL-07-030561
@@ -109,7 +109,7 @@ audited_commands:
     stig_id: V-72101
     arch_specific: yes
   - command: lremovexattr
-    stig_id: RHEL-07-030405
+    stig_id: V-72121
     arch_specific: yes
   - command: lsetxattr
     stig_id: V-72115
@@ -122,7 +122,7 @@ audited_commands:
     stig_id: RHEL-07-030524
     arch_specific: no
   - command: open
-    stig_id: RHEL-07-030421
+    stig_id: V-72125
     arch_specific: yes
   - command: openat
     stig_id: RHEL-07-030422
