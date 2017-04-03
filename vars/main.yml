@@ -286,7 +286,7 @@ password_quality_rhel7:
 shadow_utils_rhel7:
   - parameter: ENCRYPT_METHOD
     value: "{{ security_password_encrypt_method | default('') }}"
-    stig_id: RHEL-07-010180
+    stig_id: V-71921
     ansible_os_family: all
   - parameter: PASS_MIN_DAYS
     value: "{{ security_password_min_lifetime_days | default('') }}"

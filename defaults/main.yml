@@ -477,7 +477,7 @@ security_pwquality_limit_repeated_characters: yes            # V-71915
 security_pwquality_limit_repeated_character_classes: yes     # V-71917
 security_pwquality_require_minimum_password_length: no       # RHEL-07-010250
 # Ensure passwords are stored using SHA512.
-security_password_encrypt_method: SHA512                     # RHEL-07-010180
+security_password_encrypt_method: SHA512                     # V-71921
 # Ensure user/group admin utilities only store encrypted passwords.
 security_libuser_crypt_style_sha512: yes                     # RHEL-07-010190
 # Set a minimum/maximum lifetime limit for user passwords.
