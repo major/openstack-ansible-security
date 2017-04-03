@@ -206,7 +206,7 @@
     - misc
     - V-72213
 
-- name: RHEL-07-040160 - Set 10 minute timeout on communication sessions
+- name: V-72223 - Set 10 minute timeout on communication sessions
   blockinfile:
     dest: /etc/profile
     insertbefore: EOF
@@ -219,7 +219,7 @@
   tags:
     - medium
     - misc
-    - RHEL-07-040160
+    - V-72223
 
 - name: Start and enable chrony
   service:

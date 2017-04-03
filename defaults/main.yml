@@ -557,7 +557,7 @@ security_require_grub_authentication: no                     # V-71961 / V-71963
 # The default password for grub authentication is 'secrete'.
 security_grub_password_hash: grub.pbkdf2.sha512.10000.7B21785BEAFEE3AC71459D8210E3FB42EC0F5011C24A2DF31A8127D43A0BB4F1563549DF443791BE8EDA3AE4E4D4E04DB78D4CA35320E4C646CF38320CBE16EC.4B46176AAB1405D97BADB696377C29DE3B3266188D9C3D2E57F3AE851815CCBC16A275B0DBF6F79D738DAD8F598BEE64C73AE35F19A28C5D1E7C7D96FF8A739B
 # Set session timeout.
-security_rhel7_session_timeout: 600                          # RHEL-07-040160
+security_rhel7_session_timeout: 600                          # V-72223
 # Enable chrony for NTP time synchronization.
 security_rhel7_enable_chrony: yes                            # RHEL-07-040210
 # Restrict mail relaying.
@@ -592,9 +592,9 @@ security_sshd_disallow_environment_override: yes             # V-71957
 # Disallow host based authentication.
 security_sshd_disallow_host_based_auth: yes                  # V-71959
 # Set a list of allowed ssh ciphers.
-security_sshd_cipher_list: 'aes128-ctr,aes192-ctr,aes256-ctr' # RHEL-07-040110
+security_sshd_cipher_list: 'aes128-ctr,aes192-ctr,aes256-ctr' # V-72221
 # Specify a text file to be displayed as the banner/MOTD for all sessions.
-security_sshd_banner_file: /etc/motd                         # V-71861 / RHEL-07-040170
+security_sshd_banner_file: /etc/motd                         # V-71861 / V-72225
 # Set the interval for max session length and the number of intervals to allow.
 security_sshd_client_alive_interval: 600                     # RHEL-07-040190
 security_sshd_client_alive_count_max: 0                      # RHEL-07-040191

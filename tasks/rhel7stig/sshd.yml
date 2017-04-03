@@ -38,7 +38,7 @@
     - high
     - sshd
     - V-71861
-    - RHEL-07-040170
+    - V-72225
 
 - name: Adjust ssh server configuration based on STIG requirements
   blockinfile:
@@ -57,8 +57,8 @@
     - RHEL-07-010440
     - V-71957
     - V-71959
-    - RHEL-07-040110
-    - RHEL-07-040170
+    - V-72221
+    - V-72225
     - RHEL-07-040190
     - RHEL-07-040191
     - RHEL-07-040301
