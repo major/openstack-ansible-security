@@ -308,8 +308,8 @@
   tags:
     - auth
     - high
-    - RHEL-07-010460
-    - RHEL-07-010470
+    - V-71961
+    - V-71963
 
 - name: Get all accounts with UID 0
   shell: "awk -F: '$3 == 0 {print $1}' /etc/passwd"
