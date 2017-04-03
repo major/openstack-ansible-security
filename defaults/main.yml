@@ -407,13 +407,13 @@ security_rhel7_audit_chsh: yes                               # RHEL-07-030525
 security_rhel7_audit_chage: yes                              # RHEL-07-030513
 security_rhel7_audit_chcon: yes                              # RHEL-07-030443
 security_rhel7_audit_chmod: no                               # RHEL-07-030390
-security_rhel7_audit_chown: no                               # RHEL-07-030380
+security_rhel7_audit_chown: no                               # V-72097
 security_rhel7_audit_creat: yes                              # RHEL-07-030420
 security_rhel7_audit_crontab: yes                            # RHEL-07-030561
 security_rhel7_audit_delete_module: yes                      # RHEL-07-030671
 security_rhel7_audit_fchmod: no                              # RHEL-07-030391
 security_rhel7_audit_fchmodat: no                            # RHEL-07-030392
-security_rhel7_audit_fchown: no                              # RHEL-07-030381
+security_rhel7_audit_fchown: no                              # V-72099
 security_rhel7_audit_fchownat: no                            # RHEL-07-030383
 security_rhel7_audit_fremovexattr: no                        # RHEL-07-030404
 security_rhel7_audit_fsetxattr: no                           # RHEL-07-030401
