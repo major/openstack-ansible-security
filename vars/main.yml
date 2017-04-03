@@ -254,7 +254,7 @@ password_quality_rhel7:
     enabled: "{{ security_pwquality_require_characters_changed }}"
   - parameter: minclass
     value: 4
-    stig_id: RHEL-07-010140
+    stig_id: V-71913
     description: "Password must have at least four character classes changed"
     enabled: "{{ security_pwquality_require_character_classes_changed }}"
   - parameter: maxrepeat
