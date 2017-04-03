@@ -34,7 +34,7 @@
     - RHEL-07-040500
     - RHEL-07-040560
 
-- name: RHEL-07-020200 - Clean requirements/dependencies when removing packages (rpm)
+- name: V-71987 - Clean requirements/dependencies when removing packages (rpm)
   lineinfile:
     dest: /etc/yum.conf
     regexp: "^(#)?clean_requirements_on_remove"
@@ -46,9 +46,9 @@
   tags:
     - low
     - packages
-    - RHEL-07-020200
+    - V-71987
 
-- name: RHEL-07-020200 - Clean requirements/dependencies when removing packages (dpkg)
+- name: V-71987 - Clean requirements/dependencies when removing packages (dpkg)
   lineinfile:
     dest: /etc/apt/apt.conf.d/security-autoremove
     regexp: "^(#)?APT::Get::AutomaticRemove"
@@ -61,7 +61,7 @@
   tags:
     - low
     - packages
-    - RHEL-07-020200
+    - V-71987
 
 - name: RHEL-07-020250 - System security patches and updates must be installed and up to date. (yum)
   lineinfile:
