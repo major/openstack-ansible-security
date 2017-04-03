@@ -239,7 +239,7 @@ password_quality_rhel7:
     enabled: "{{ security_pwquality_require_lowercase }}"
   - parameter: dcredit
     value: -1
-    stig_id: RHEL-07-010110
+    stig_id: V-71907
     description: "Password must contain at least one numeric character"
     enabled: "{{ security_pwquality_require_numeric }}"
   - parameter: ocredit
