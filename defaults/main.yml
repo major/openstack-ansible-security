@@ -537,7 +537,7 @@ security_enable_graphical_login_message_text: >
 
 ## Linux Security Module (lsm)
 # Enable SELinux on Red Hat/CentOS and AppArmor on Ubuntu.
-security_rhel7_enable_linux_security_module: yes             # RHEL-07-020210 / RHEL-07-020211
+security_rhel7_enable_linux_security_module: yes             # V-71989 / V-71991
 
 ## Miscellaneous (misc)
 # Disable the autofs service.
