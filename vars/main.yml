@@ -76,7 +76,7 @@ audited_commands:
     stig_id: V-72183
     arch_specific: no
   - command: delete_module
-    stig_id: RHEL-07-030671
+    stig_id: V-72189
     arch_specific: yes
   - command: fchmod
     stig_id: V-72107
@@ -100,7 +100,7 @@ audited_commands:
     stig_id: V-72133
     arch_specific: yes
   - command: init_module
-    stig_id: RHEL-07-030670
+    stig_id: V-72187
     arch_specific: yes
   - command: gpasswd
     stig_id: V-72153
@@ -132,7 +132,7 @@ audited_commands:
     arch_specific: yes
   - command: pam_timestamp_check
     path: /sbin
-    stig_id: RHEL-07-030630
+    stig_id: V-72185
     arch_specific: no
   - command: passwd
     stig_id: V-72149

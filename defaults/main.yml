@@ -410,7 +410,7 @@ security_rhel7_audit_chmod: no                               # V-72105
 security_rhel7_audit_chown: no                               # V-72097
 security_rhel7_audit_creat: yes                              # V-72123
 security_rhel7_audit_crontab: yes                            # V-72183
-security_rhel7_audit_delete_module: yes                      # RHEL-07-030671
+security_rhel7_audit_delete_module: yes                      # V-72189
 security_rhel7_audit_fchmod: no                              # V-72107
 security_rhel7_audit_fchmodat: no                            # V-72109
 security_rhel7_audit_fchown: no                              # V-72099
@@ -418,7 +418,7 @@ security_rhel7_audit_fchownat: no                            # V-72103
 security_rhel7_audit_fremovexattr: no                        # V-72119
 security_rhel7_audit_fsetxattr: no                           # V-72113
 security_rhel7_audit_ftruncate: yes                          # V-72133
-security_rhel7_audit_init_module: yes                        # RHEL-07-030670
+security_rhel7_audit_init_module: yes                        # V-72187
 security_rhel7_audit_gpasswd: yes                            # V-72153
 security_rhel7_audit_lchown: no                              # V-72101
 security_rhel7_audit_lremovexattr: no                        # V-72121
@@ -428,7 +428,7 @@ security_rhel7_audit_newgrp: yes                             # V-72165
 security_rhel7_audit_open: yes                               # V-72125
 security_rhel7_audit_openat: yes                             # V-72127
 security_rhel7_audit_open_by_handle_at: yes                  # V-72129
-security_rhel7_audit_pam_timestamp_check: yes                # RHEL-07-030630
+security_rhel7_audit_pam_timestamp_check: yes                # V-72185
 security_rhel7_audit_passwd: yes                             # V-72149
 security_rhel7_audit_postdrop: yes                           # V-72175
 security_rhel7_audit_postqueue: yes                          # V-72177
@@ -454,9 +454,9 @@ security_rhel7_audit_userhelper: yes                         # V-72157
 # Add audit rules for other events.
 security_rhel7_audit_account_access: yes                     # V-72143
 security_rhel7_audit_sudo_config_changes: yes                # V-72163
-security_rhel7_audit_insmod: yes                             # RHEL-07-030672
-security_rhel7_audit_rmmod: yes                              # RHEL-07-030673
-security_rhel7_audit_modprobe: yes                           # RHEL-07-030674
+security_rhel7_audit_insmod: yes                             # V-72191
+security_rhel7_audit_rmmod: yes                              # V-72193
+security_rhel7_audit_modprobe: yes                           # V-72195
 security_rhel7_audit_account_actions: yes                    # RHEL-07-030710
 
 ## Authentication (auth)
