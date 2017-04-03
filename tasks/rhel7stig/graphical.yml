@@ -63,8 +63,6 @@
     - medium
     - V-71891
     - V-71893
-    - RHEL-07-010071
-    - V-71893
     - V-71901
 
 - name: Create dconf directories
@@ -83,8 +81,6 @@
     - V-71859
     - V-71891
     - V-71893
-    - RHEL-07-010071
-    - V-71893
     - V-71901
 
 - name: Configure graphical session locking
@@ -100,8 +96,6 @@
     - medium
     - V-71891
     - V-71893
-    - RHEL-07-010071
-    - V-71893
     - V-71901
 
 - name: Prevent users from changing graphical session locking configurations
@@ -116,8 +110,6 @@
     - graphical
     - medium
     - V-71891
-    - V-71893
-    - RHEL-07-010071
     - V-71893
     - V-71901
 

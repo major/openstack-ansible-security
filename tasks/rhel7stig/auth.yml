@@ -235,9 +235,8 @@
   tags:
     - auth
     - medium
-    - V-71945
     - V-71943
-    - RHEL-07-010373
+    - V-71945
 
 - name: Check for 'nopasswd' in sudoers files
   shell: grep -ir nopasswd /etc/sudoers /etc/sudoers.d/ || echo 'not found'

@@ -169,9 +169,9 @@
     - high
     - auditd
     - V-72087
-    - RHEL-07 030350
-    - RHEL-07 030351
-    - RHEL-07 030352
+    - V-72089
+    - V-72091
+    - V-72093
 
 - name: Ensure auditd is running and enabled at boot time
   service:

@@ -67,7 +67,7 @@
   tags:
     - low
     - misc
-    - RHEL-07-021240
+    - V-72059
 
 - name: Check for /var on mounted filesystem
   debug:
@@ -79,7 +79,7 @@
   tags:
     - low
     - misc
-    - RHEL-07-021250
+    - V-72067
 
 - name: Check for /var/log/audit on mounted filesystem
   debug:
@@ -91,7 +91,7 @@
   tags:
     - low
     - misc
-    - RHEL-07-021260
+    - V-72063
 
 - name: Check for /tmp on mounted filesystem
   debug:
@@ -103,7 +103,7 @@
   tags:
     - low
     - misc
-    - RHEL-07-021270
+    - V-72065
 
 - name: Check if syslog output is being sent to another server
   command: 'grep "^[^#].*@" /etc/rsyslog.conf'
