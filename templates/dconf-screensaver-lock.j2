@@ -11,12 +11,12 @@ idle-delay={{ security_lock_session_inactive_delay }}
 #                  identification and authentication procedures.
 lock-enabled=true
 
-# RHEL-07-010074 - The operating system must initiate a session lock for
+# V-71901 - The operating system must initiate a session lock for
 #                  graphical user interfaces when the screensaver is activated.
 lock-delay={{ security_lock_session_screensaver_lock_delay }}
 
 {% if security_lock_session_when_inactive | bool %}
-# RHEL-07-010073 - The operating system must initiate a session lock for the
+# V-71893 - The operating system must initiate a session lock for the
 #                  screensaver after a period of inactivity for graphical user
 #                  interfaces.
 idle-activation-enabled=true

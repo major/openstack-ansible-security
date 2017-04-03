@@ -525,9 +525,9 @@ security_lock_session_inactive_delay: 900                    # V-71893
 # Prevent users from modifying session lock settings.
 security_lock_session_override_user: yes                     # RHEL-07-010071
 # Lock a session (start screensaver) when a session is inactive.
-security_lock_session_when_inactive: yes                     # RHEL-07-010073
+security_lock_session_when_inactive: yes                     # V-71893
 # Time after screensaver starts when user login is required.
-security_lock_session_screensaver_lock_delay: 5              # RHEL-07-010074
+security_lock_session_screensaver_lock_delay: 5              # V-71901
 # Enable a login banner and set the text for the banner.
 security_enable_graphical_login_message: yes                 # V-71859
 security_enable_graphical_login_message_text: >
@@ -627,14 +627,14 @@ security_sshd_disable_kerberos_auth: yes                     # V-72261
 # Disallow forwarding IPv4/IPv6 source routed packets on all interfaces
 # immediately and by default on new interfaces.
 security_disallow_source_routed_packet_forward_ipv4: yes     # V-72283 / V-72285
-security_disallow_source_routed_packet_forward_ipv6: yes     # RHEL-07-040860
+security_disallow_source_routed_packet_forward_ipv6: yes     # V-72319
 # Disallow responses to IPv4 ICMP echoes sent to broadcast address.
 security_disallow_echoes_broadcast_address: yes              # V-72287
 # Disallow IPV4 ICMP redirects on all interfaces immediately and by default on
 # new interfaces.
 security_disallow_icmp_redirects: yes                        # V-73175 / V-72291 / V-72293
 # Disallow IP forwarding.
-security_disallow_ip_forwarding: no                          # RHEL-07-040730
+security_disallow_ip_forwarding: no                          # V-72309
 # Disable USB storage support.
 security_rhel7_disable_usb_storage: yes                      # V-71983
 # Disable kdump.

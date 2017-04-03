@@ -41,8 +41,8 @@
     - V-73175
     - V-72291
     - V-72293
-    - RHEL-07-040730
-    - RHEL-07-040860
+    - V-72309
+    - V-72319
 
 - name: Check kdump service
   command: systemctl status kdump

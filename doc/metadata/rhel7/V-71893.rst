@@ -4,12 +4,12 @@ status: implemented
 tag: graphical
 ---
 
-The session inactivity timeout is set to 900 seconds to meet the STIG
-requirements. After this time, users must re-enter their credentials to regain
-access to the system.
+The STIG requires that the screensaver appears when a session reaches a certain
+period of inactivity. The tasks will enable the screensaver for inactive
+sessions by default.
 
-Deployers can adjust this timeout by setting an Ansible variable:
+Deployers can opt out of this change by setting an Ansible variable:
 
 .. code-block:: yaml
 
-    security_lock_session_inactive_delay: 900
+    security_lock_session_when_inactive: no
