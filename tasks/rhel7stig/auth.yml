@@ -246,9 +246,9 @@
   tags:
     - auth
     - medium
-    - RHEL-07-010380
+    - V-71947
 
-- name: RHEL-07-010380 - Users must provide a password for privilege escalation.
+- name: V-71947 - Users must provide a password for privilege escalation.
   debug:
     msg: >
       The 'NOPASSWD' directive was found in the sudoers configuration files.
@@ -260,7 +260,7 @@
   tags:
     - auth
     - medium
-    - RHEL-07-010380
+    - V-71947
     - skip_ansible_lint
 
 - name: Check for '!authenticate' in sudoers files
@@ -270,9 +270,9 @@
   tags:
     - auth
     - medium
-    - RHEL-07-010381
+    - V-71949
 
-- name: RHEL-07-010381 - Users must re-authenticate for privilege escalation.
+- name: V-71949 - Users must re-authenticate for privilege escalation.
   debug:
     msg: >
       The '!authenticate' directive was found in the sudoers configuration
@@ -284,7 +284,7 @@
   tags:
     - auth
     - medium
-    - RHEL-07-010381
+    - V-71949
     - skip_ansible_lint
 
 - name: Check if sssd.conf exists
