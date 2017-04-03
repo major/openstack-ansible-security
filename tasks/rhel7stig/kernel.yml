@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-- name: RHEL-07-020160 - USB mass storage must be disabled.
+- name: V-71983 - USB mass storage must be disabled.
   lineinfile:
     dest: /etc/modprobe.d/openstack-ansible-security-disable-usb-storage.conf
     line: install usb-storage /bin/true
@@ -23,7 +23,7 @@
   tags:
     - kernel
     - medium
-    - RHEL-07-020160
+    - V-71983
 
 - name: Set sysctl configurations
   sysctl:
