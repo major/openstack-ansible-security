@@ -500,7 +500,7 @@ security_pam_faillock_attempts: 3
 security_pam_faillock_deny_root: yes                         # RHEL-07-010373
 security_pam_faillock_unlock_time: 604800                    # V-71943
 # Limit the number of concurrent connections per account.
-#security_rhel7_concurrent_session_limit: 10                 # RHEL-07-040010
+#security_rhel7_concurrent_session_limit: 10                 # V-72217
 # Remove .shosts and shosts.equiv files.
 security_rhel7_remove_shosts_files: no                       # RHEL-07-040330
 
