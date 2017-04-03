@@ -29,7 +29,7 @@
   tags:
     - always
 
-- name: RHEL-07-030330 - The operating system must off-load audit records onto a different system or media from the system being audited
+- name: V-72083 - The operating system must off-load audit records onto a different system or media from the system being audited
   lineinfile:
     dest: /etc/audisp/audisp-remote.conf
     regexp: "^(#)?remote_server"
@@ -42,9 +42,9 @@
   tags:
     - medium
     - auditd
-    - RHEL-07-030330
+    - V-72083
 
-- name: RHEL-07-030331 - The operating system must encrypt the transfer of audit records off-loaded onto a different system or media from the system being audited
+- name: V-72085 - The operating system must encrypt the transfer of audit records off-loaded onto a different system or media from the system being audited
   lineinfile:
     dest: /etc/audisp/audisp-remote.conf
     regexp: "^(#)?enable_krb5"
@@ -57,7 +57,7 @@
   tags:
     - medium
     - auditd
-    - RHEL-07-030331
+    - V-72085
 
 - name: Get valid system architectures for audit rules
   set_fact:
@@ -168,7 +168,7 @@
   tags:
     - high
     - auditd
-    - RHEL-07-030340
+    - V-72087
     - RHEL-07 030350
     - RHEL-07 030351
     - RHEL-07 030352
