@@ -483,10 +483,6 @@ security_libuser_crypt_style_sha512: yes                     # V-71923
 # Set a minimum/maximum lifetime limit for user passwords.
 #security_password_min_lifetime_days: 1                      # V-71925
 #security_password_max_lifetime_days: 60                     # V-71929
-# Set a timeout (in seconds) to cache NSS authenticators with sssd.
-security_nss_cached_authenticator_timeout: 86400             # RHEL-07-010400
-# Set a timeout (in days) to cache PAM/ssh authenticators with sssd.
-security_pam_offline_credentials_expiration_days: 1          # RHEL-07-010401 / RHEL-07-010402
 # Set a delay (in seconds) between failed login attempts.
 security_shadow_utils_fail_delay: 4                          # RHEL-07-010420
 # Set a umask for all authenticated users.
