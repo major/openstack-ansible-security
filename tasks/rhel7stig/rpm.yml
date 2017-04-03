@@ -56,7 +56,7 @@
     - high
     - V-71855
 
-- name: RHEL-07-020150 - Require digital signatures for all packages
+- name: V-71977 - Require digital signatures for all packages
   lineinfile:
     dest: /etc/yum.conf
     regexp: "{{ item.regexp }}"
@@ -66,6 +66,6 @@
   tags:
     - rpm
     - high
-    - RHEL-07-020150
-    - RHEL-07-020151
-    - RHEL-07-020152
+    - V-71977
+    - V-71979
+    - V-71981

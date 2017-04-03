@@ -578,9 +578,9 @@ security_rhel7_automatic_package_updates: no                 # RHEL-07-020250
 
 ## RPM (rpm)
 # Enable GPG checks for packages and repository data.
-security_enable_gpgcheck_packages: yes                       # RHEL-07-020150
-security_enable_gpgcheck_packages_local: yes                 # RHEL-07-020151
-security_enable_gpgcheck_repo: no                            # RHEL-07-020152
+security_enable_gpgcheck_packages: yes                       # V-71977
+security_enable_gpgcheck_packages_local: yes                 # V-71979
+security_enable_gpgcheck_repo: no                            # V-71981
 
 ## ssh server (sshd)
 # Ensure sshd is running and enabled at boot time.
