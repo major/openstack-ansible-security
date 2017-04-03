@@ -152,7 +152,7 @@
     - RHEL-07-030673
     - RHEL-07-030674
     - RHEL-07-030710
-    - RHEL-07-030090
+    - V-72081
 
 - name: Adjust auditd/audispd configurations
   lineinfile:
