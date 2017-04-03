@@ -37,7 +37,7 @@
   tags:
     - high
     - sshd
-    - RHEL-07-010040
+    - V-71861
     - RHEL-07-040170
 
 - name: Adjust ssh server configuration based on STIG requirements
