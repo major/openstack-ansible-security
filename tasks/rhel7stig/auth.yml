@@ -108,7 +108,7 @@
     - medium
     - RHEL-07-010420
 
-- name: RHEL-07-010190 - User and group account administration utilities must be configured to store only encrypted representations of passwords.
+- name: V-71923 - User and group account administration utilities must be configured to store only encrypted representations of passwords.
   ini_file:
     dest: /etc/libuser.conf
     section: defaults
@@ -121,7 +121,7 @@
   tags:
     - auth
     - medium
-    - RHEL-07-010190
+    - V-71923
 
 - name: Get all user accounts with a password lifetime limit under 24 hours
   shell: "awk -F: '$4 < 1 {print $1}' /etc/shadow"

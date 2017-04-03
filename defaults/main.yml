@@ -479,7 +479,7 @@ security_pwquality_require_minimum_password_length: no       # RHEL-07-010250
 # Ensure passwords are stored using SHA512.
 security_password_encrypt_method: SHA512                     # V-71921
 # Ensure user/group admin utilities only store encrypted passwords.
-security_libuser_crypt_style_sha512: yes                     # RHEL-07-010190
+security_libuser_crypt_style_sha512: yes                     # V-71923
 # Set a minimum/maximum lifetime limit for user passwords.
 #security_password_min_lifetime_days: 1                      # RHEL-07-010200
 #security_password_max_lifetime_days: 60                     # RHEL-07-010220
