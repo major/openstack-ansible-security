@@ -1,5 +1,5 @@
 ---
-id: RHEL-07-021610
+id: V-72071
 status: implemented
 tag: aide
 ---
@@ -11,4 +11,4 @@ by default. No configuration changes are applied on these systems.
 However, Ubuntu lacks the rules that include ACL and extended attribute checks.
 The tasks in the security role will add a small configuration block at the end
 of the AIDE configuration file to meet the requirements of this STIG, as well
-as RHEL-07-021600.
+as V-72069.
