@@ -574,7 +574,7 @@ security_rhel7_remove_ypserv: yes                            # V-71969
 # Automatically remove dependencies when removing packages.
 security_package_clean_on_remove: no                         # V-71987
 # Automatically update packages.
-security_rhel7_automatic_package_updates: no                 # RHEL-07-020250
+security_rhel7_automatic_package_updates: no                 # V-71999
 
 ## RPM (rpm)
 # Enable GPG checks for packages and repository data.

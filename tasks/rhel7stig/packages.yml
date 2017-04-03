@@ -63,7 +63,7 @@
     - packages
     - V-71987
 
-- name: RHEL-07-020250 - System security patches and updates must be installed and up to date. (yum)
+- name: V-71999 - System security patches and updates must be installed and up to date. (yum)
   lineinfile:
     dest: /etc/yum/yum-cron.conf
     regexp: "^apply_updates"
@@ -75,9 +75,9 @@
   tags:
     - packages
     - medium
-    - RHEL-07-020250
+    - V-71999
 
-- name: RHEL-07-020250 - System security patches and updates must be installed and up to date. (apt)
+- name: V-71999 - System security patches and updates must be installed and up to date. (apt)
   copy:
     src: 20auto-upgrades
     dest: /etc/apt/apt.conf.d/20auto-upgrades
@@ -87,4 +87,4 @@
   tags:
     - packages
     - cat2
-    - RHEL-07-020250
+    - V-71999
