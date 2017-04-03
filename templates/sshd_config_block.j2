@@ -23,7 +23,7 @@ ClientAliveCountMax {{ security_sshd_client_alive_count_max }}
 PrintLastLog yes
 {% endif %}
 {% if security_sshd_permit_root_login | bool %}
-# RHEL-07-040310
+# V-72247
 PermitRootLogin no
 {% endif %}
 {% if security_sshd_disallow_known_hosts_auth | bool %}

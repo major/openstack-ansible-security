@@ -1,5 +1,5 @@
 ---
-id: RHEL-07-040310
+id: V-72247
 status: implemented
 tag: sshd
 ---
