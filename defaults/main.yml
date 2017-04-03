@@ -494,7 +494,7 @@ security_shadow_utils_fail_delay: 4                          # RHEL-07-010420
 # Create home directories for new users by default.
 security_shadow_utils_create_home: yes                       # RHEL-07-020630
 # How many old user password to remember to prevent password re-use.
-#security_password_remember_password: 5                      # RHEL-07-010240
+#security_password_remember_password: 5                      # V-71933
 # Disable user accounts if the password expires.
 security_disable_account_if_password_expires: no             # RHEL-07-010280
 # Lock user accounts with excessive login failures. See documentation.

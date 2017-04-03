@@ -146,7 +146,7 @@
     - medium
     - V-71927
 
-- name: RHEL-07-010240 - Passwords must be prohibited from reuse for a minimum of five generations.
+- name: V-71933 - Passwords must be prohibited from reuse for a minimum of five generations.
   lineinfile:
     dest: "{{ pam_password_file }}"
     regexp: '^(password\s+[a-z0-9\=\[\] ]+\s+pam_unix\.so.+?)\s+(?:remember=\d+)?$'
@@ -158,7 +158,7 @@
   tags:
     - auth
     - medium
-    - RHEL-07-010240
+    - V-71933
 
 - name: V-71931 - Existing passwords must be restricted to a 60-day maximum lifetime.
   debug:
