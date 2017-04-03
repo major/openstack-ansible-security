@@ -149,7 +149,7 @@
     - restart clamav
   tags:
     - misc
-    - RHEL-07-030810
+    - V-72213
 
 - name: Set ClamAV server type as socket
   lineinfile:
@@ -165,7 +165,7 @@
     - restart clamav
   tags:
     - misc
-    - RHEL-07-030810
+    - V-72213
 
 - name: Allow automatic freshclam updates
   lineinfile:
@@ -180,7 +180,7 @@
     - restart clamav
   tags:
     - misc
-    - RHEL-07-030810
+    - V-72213
 
 - name: Update ClamAV database
   command: freshclam
@@ -192,7 +192,7 @@
   poll: 5
   tags:
     - misc
-    - RHEL-07-030810
+    - V-72213
 
 - name: Ensure ClamAV is running
   service:
@@ -204,7 +204,7 @@
     - security_enable_virus_scanner | bool
   tags:
     - misc
-    - RHEL-07-030810
+    - V-72213
 
 - name: RHEL-07-040160 - Set 10 minute timeout on communication sessions
   blockinfile:
