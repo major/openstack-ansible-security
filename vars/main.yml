@@ -244,12 +244,12 @@ password_quality_rhel7:
     enabled: "{{ security_pwquality_require_numeric }}"
   - parameter: ocredit
     value: -1
-    stig_id: RHEL-07-010120
+    stig_id: V-71909
     description: "Password must contain at least one special character"
     enabled: "{{ security_pwquality_require_special }}"
   - parameter: difok
     value: 8
-    stig_id: RHEL-07-010130
+    stig_id: V-71911
     description: "Password must have at least eight characters changed"
     enabled: "{{ security_pwquality_require_characters_changed }}"
   - parameter: minclass
