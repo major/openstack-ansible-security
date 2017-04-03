@@ -156,7 +156,7 @@
   tags:
     - medium
     - file_perms
-    - RHEL-07-021190
+    - V-72053
     - RHEL-07-021200
 
 - name: Check if cn_map file is present
