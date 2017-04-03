@@ -91,10 +91,10 @@ audited_commands:
     stig_id: V-72103
     arch_specific: yes
   - command: fremovexattr
-    stig_id: RHEL-07-030404
+    stig_id: V-72119
     arch_specific: yes
   - command: fsetxattr
-    stig_id: RHEL-07-030401
+    stig_id: V-72113
     arch_specific: yes
   - command: ftruncate
     stig_id: RHEL-07-030425
@@ -112,7 +112,7 @@ audited_commands:
     stig_id: RHEL-07-030405
     arch_specific: yes
   - command: lsetxattr
-    stig_id: RHEL-07-030402
+    stig_id: V-72115
     arch_specific: yes
   - command: mount
     path: /bin
@@ -151,7 +151,7 @@ audited_commands:
     arch_specific: no
     distro: redhat
   - command: removexattr
-    stig_id: RHEL-07-030403
+    stig_id: V-72117
     arch_specific: yes
   - command: rename
     stig_id: RHEL-07-030750
