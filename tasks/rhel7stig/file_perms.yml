@@ -86,7 +86,7 @@
   tags:
     - always
 
-- name: RHEL-07-020370 - All files and directories must have a valid group owner.
+- name: V-72009 - All files and directories must have a valid group owner.
   debug:
     msg: |
       Files and directories were found that are owned by an invalid group:
@@ -98,7 +98,7 @@
   tags:
     - file_perms
     - medium
-    - RHEL-07-020370
+    - V-72009
 
 - name: Set proper owner, group owner, and permissions on home directories
   file:
