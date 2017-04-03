@@ -97,7 +97,7 @@ audited_commands:
     stig_id: V-72113
     arch_specific: yes
   - command: ftruncate
-    stig_id: RHEL-07-030425
+    stig_id: V-72133
     arch_specific: yes
   - command: init_module
     stig_id: RHEL-07-030670
@@ -125,10 +125,10 @@ audited_commands:
     stig_id: V-72125
     arch_specific: yes
   - command: openat
-    stig_id: RHEL-07-030422
+    stig_id: V-72127
     arch_specific: yes
   - command: open_by_handle_at
-    stig_id: RHEL-07-030423
+    stig_id: V-72129
     arch_specific: yes
   - command: pam_timestamp_check
     path: /sbin
@@ -193,7 +193,7 @@ audited_commands:
     stig_id: RHEL-07-030526
     arch_specific: no
   - command: truncate
-    stig_id: RHEL-07-030424
+    stig_id: V-72131
     arch_specific: yes
   - command: umount
     path: /bin
