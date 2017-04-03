@@ -61,7 +61,7 @@
   tags:
     - graphical
     - medium
-    - RHEL-07-010060
+    - V-71891
     - RHEL-07-010070
     - RHEL-07-010071
     - RHEL-07-010073
@@ -81,7 +81,7 @@
     - graphical
     - medium
     - V-71859
-    - RHEL-07-010060
+    - V-71891
     - RHEL-07-010070
     - RHEL-07-010071
     - RHEL-07-010073
@@ -98,7 +98,7 @@
   tags:
     - graphical
     - medium
-    - RHEL-07-010060
+    - V-71891
     - RHEL-07-010070
     - RHEL-07-010071
     - RHEL-07-010073
@@ -115,7 +115,7 @@
   tags:
     - graphical
     - medium
-    - RHEL-07-010060
+    - V-71891
     - RHEL-07-010070
     - RHEL-07-010071
     - RHEL-07-010073
