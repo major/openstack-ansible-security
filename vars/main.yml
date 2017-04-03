@@ -294,7 +294,7 @@ shadow_utils_rhel7:
     ansible_os_family: all
   - parameter: PASS_MAX_DAYS
     value: "{{ security_password_max_lifetime_days | default('') }}"
-    stig_id: RHEL-07-010220
+    stig_id: V-71929
     ansible_os_family: all
   - parameter: FAIL_DELAY
     value: "{{ security_shadow_utils_fail_delay | default('') }}"
