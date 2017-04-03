@@ -73,7 +73,7 @@ audited_commands:
     stig_id: V-72123
     arch_specific: yes
   - command: crontab
-    stig_id: RHEL-07-030561
+    stig_id: V-72183
     arch_specific: no
   - command: delete_module
     stig_id: RHEL-07-030671
@@ -116,7 +116,7 @@ audited_commands:
     arch_specific: yes
   - command: mount
     path: /bin
-    stig_id: RHEL-07-030530
+    stig_id: V-72171
     arch_specific: no
   - command: newgrp
     stig_id: V-72165
@@ -139,15 +139,15 @@ audited_commands:
     arch_specific: no
   - command: postdrop
     path: /usr/sbin
-    stig_id: RHEL-07-030540
+    stig_id: V-72175
     arch_specific: no
   - command: postqueue
     path: /usr/sbin
-    stig_id: RHEL-07-030541
+    stig_id: V-72177
     arch_specific: no
   - command: pt_chown
     path: /usr/libexec
-    stig_id: RHEL-07-030560
+    stig_id: V-72181
     arch_specific: no
     distro: redhat
   - command: removexattr
@@ -179,7 +179,7 @@ audited_commands:
     arch_specific: yes
   - command: ssh-keysign
     path: "{{ ssh_keysign_path }}"
-    stig_id: RHEL-07-030550
+    stig_id: V-72179
     arch_specific: no
   - command: su
     path: /bin
@@ -197,7 +197,7 @@ audited_commands:
     arch_specific: yes
   - command: umount
     path: /bin
-    stig_id: RHEL-07-030531
+    stig_id: V-72173
     arch_specific: no
   - command: unix_chkpwd
     path: /sbin
