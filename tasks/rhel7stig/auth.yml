@@ -370,9 +370,9 @@
   tags:
     - auth
     - medium
-    - RHEL-07-020640
+    - V-72015
 
-- name: RHEL-07-020640 - All local interactive user home directories defined in the /etc/passwd file must exist.
+- name: V-72015 - All local interactive user home directories defined in the /etc/passwd file must exist.
   debug:
     msg: |
       These users have a home directory assigned, but the directory does not exist:
@@ -386,7 +386,7 @@
   tags:
     - auth
     - medium
-    - RHEL-07-020640
+    - V-72015
 
 - name: RHEL-07-040010 - The operating system must limit the number of concurrent sessions to 10 for all accounts and/or account types.
   blockinfile:

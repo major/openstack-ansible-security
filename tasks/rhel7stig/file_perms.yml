@@ -113,9 +113,9 @@
   tags:
     - medium
     - file_perms
-    - RHEL-07-020650
-    - RHEL-07-020660
-    - RHEL-07-020670
+    - V-72017
+    - V-72019
+    - V-72021
 
 - name: Find all world-writable directories
   shell: "find / -perm -002 -type d -exec ls -lLd {} \\; | tr -s ' ' | cut -d' ' -f 4,9 | grep -v ^root"
