@@ -157,7 +157,7 @@
     - medium
     - file_perms
     - V-72053
-    - RHEL-07-021200
+    - V-72055
 
 - name: Check if cn_map file is present
   stat:
