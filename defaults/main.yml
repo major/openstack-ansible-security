@@ -638,4 +638,4 @@ security_disallow_ip_forwarding: no                          # RHEL-07-040730
 # Disable USB storage support.
 security_rhel7_disable_usb_storage: yes                      # V-71983
 # Disable kdump.
-security_disable_kdump: yes                                  # RHEL-07-021230
+security_disable_kdump: yes                                  # V-72057

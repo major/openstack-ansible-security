@@ -53,9 +53,9 @@
   tags:
     - kernel
     - medium
-    - RHEL-07-021230
+    - V-72057
 
-- name: RHEL-07-021230 - Kernel core dumps must be disabled unless needed.
+- name: V-72057 - Kernel core dumps must be disabled unless needed.
   service:
     name: kdump
     state: stopped
@@ -66,7 +66,7 @@
   tags:
     - kernel
     - medium
-    - RHEL-07-021230
+    - V-72057
 
 - name: Check if FIPS is enabled
   command: cat /proc/sys/crypto/fips_enabled
