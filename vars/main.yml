@@ -306,7 +306,7 @@ shadow_utils_rhel7:
     ansible_os_family: all
   - parameter: CREATE_HOME
     value: "{{ security_shadow_utils_create_home | default('') }}"
-    stig_id: RHEL-07-020630
+    stig_id: V-72013
     ansible_os_family: all
 
 ## sysctl settings
